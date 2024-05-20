@@ -1,0 +1,9 @@
+emoji
+plotly
+scikit_learn
+numpy
+pandas
+seaborn
+streamlit
+streamlit_option_menu
+nltk

@@ -1,0 +1,142 @@
+{
+    "TR": {
+        "PAGE_OPTIONS_HOME": "Ana Dizin",
+        "PAGE_OPTIONS_HOME_TITLE": "Türkçe Haber Sınıflandırma",
+        "PAGE_OPTIONS_HOME_PARAGRAPH": "TNC, türkçe haber sınıflandırma aracıdır. Çeşitli haber sitesinden veriler çekilerek veri seti oluşturulmuştur. Çalışma adımları;",
+        "PAGE_OPTIONS_HOME_STEPS_1": "1. **Gerekli kütüphaneler yüklenir:** Modeller bilgisayar üzerinde eğitilmiştir. Gerekli kütüphaneler yüklenimiştir. Yardımcı fonksiyonlar tanımlamıştır. Kütüphane konfigürasyonları yapılmıştır.",
+        "PAGE_OPTIONS_HOME_STEPS_2": "2. **Veri seti analizi:** Veri setinde boş değer ve tekrarlanan değerler kontrol edilmiştir. En sık geçen kelimeler ve n-gram analizi yapılmıştır.",
+        "PAGE_OPTIONS_HOME_STEPS_3": "3. **Görselleştirme**: Keşifçi veri analizi yapılmıştır.",
+        "PAGE_OPTIONS_HOME_STEPS_4": "6. **Ön İşleme:** Metin verileri çeşitli ön işleme işlemlerinden geçirilmiştir..",
+        "PAGE_OPTIONS_HOME_STEPS_5": "7. **Model Eğitimi:** Kelime vektörlerine dönüştürülen verileri ile modeller eğitilmişitr.",
+
+        "PAGE_OPTIONS_HOME_OBJECTIVE_TITLE": "## Amaç",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_PARAGRAPH": "Bu projenin amacı, internet sitelerindeki farklı kategorilerde bulunan haberlerin sınıflandırılması ve modellerin performansını değerlendiren bir doğal dil işleme çözümü geliştirmektir. Projede 9 farklı kategori için web sitelerinden toplanılan haberler ile oluşturulan veri seti kullanılmaktadır.  Veri setinde 2 sütun bulunmaktadır:",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_COL1": "1. **Haber Gövdesi**: Haber metninin içeriği bu sütunda yer almaktadır.",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_COL2": "2. **Sınıf**: Haberin ait olduğu kategori bu sütunda yer almaktadır.",
+        
+
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_PARAGRAPH": "Her bir kategoriye ait veri sayısı aşağıda verilmiştir.",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1": "Sınıf",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_1": "Magazin",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_2": "Siyaset",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_3": "Spor",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_4": "Sağlık",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_5": "Kültür-Sanat",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_6": "Turizm",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_7": "Bilim-Teknoloji",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_8": "Finans-Ekonomi",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_9": "Çevre",
+        
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL2": "Veri Adeti",
+
+
+        "PAGE_OPTIONS_HOME_INSTALLATION_TITLE": "## Kurulum",
+        "PAGE_OPTIONS_HOME_INSTALLATION_PARAGRAPH": "Gerekli kütüphaneleri kurmak için aşağıdaki komutu çalıştırınız.",
+
+        "PAGE_OPTIONS_UPLOAD": "Yükle",
+        "PAGE_OPTIONS_UPLOAD_TITLE": "Sonuç",
+        "PAGE_OPTIONS_UPLOAD_HEADER": "Sınıflandırmak için bir haber girin.",
+        "PAGE_OPTIONS_UPLOAD_BUTTON": "Sınıflandır",
+
+        "PAGE_OPTIONS_MODELS": "Modeller",
+        "PAGE_OPTIONS_MODELS_TITLE": "Modeller",
+        "PAGE_OPTIONS_MODELS_HEADER": "Eğilen Modeller",
+        "PAGE_OPTIONS_MODELS_LEGEND_1": "Eğitim doğruluğu",
+        "PAGE_OPTIONS_MODELS_LEGEND_2": "Sınama doğruluğu",
+        "PAGE_OPTIONS_MODELS_LEGEND_3": "F1 skoru",
+        "PAGE_OPTIONS_MODELS_LEGEND_4": "Kesinlik skoru",
+        "PAGE_OPTIONS_MODELS_LEGEND_5": "Duyarlılık skoru",
+        "PAGE_OPTIONS_MODELS_GRAPH_TITLE": "En iyi modeller",
+
+        "PAGE_OPTIONS_FEATURES": "Ön İşleme",
+        "PAGE_OPTIONS_FEATURES_TITLE": "Ön İşleme Adımları",
+        "PAGE_OPTIONS_FEATURES_1": "Türkçe kısaltmalar açılımlarıyla değiştirilmiştir.",
+        "PAGE_OPTIONS_FEATURES_2": "Tüm kelimeler küçük harflere çevrilmiştir.",
+        "PAGE_OPTIONS_FEATURES_3": "Metin içindeki linkler temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_4": "Metin içindeki rakamlar temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_5": "Metin içindeki noktalama işaretleri temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_6": "Metin içerisindeki mail adresleri temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_7": "Metin içerisindeki emojiler temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_8": "Metin içerisindeki HTML etiketleri temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_9": "Metindeki etkisiz kelimeler temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_10": "Frekansı 10’dan az olan kelimeler temizlenmiştir.",
+        "PAGE_OPTIONS_FEATURES_11": "Cümle normalizasyon yapılmıştır.",
+        "PAGE_OPTIONS_FEATURES_12": "Lemmatizasyon yapılmıştır.",
+
+        "PAGE_OPTIONS_ABOUT": "Hakkında",
+        "PAGE_OPTIONS_ABOUT_TITLE": "Hakkında",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_TITLE": "Referanslar ve Linkler",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_R1": "- Veri seti linki: Gizli, [Gizli]()",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_R2": "- Kaynak kodlar: [Github](https://github.com/thealper2/turkish-news-classification)"
+    },
+    "EN": {
+        "PAGE_OPTIONS_HOME": "Home",
+        "PAGE_OPTIONS_HOME_TITLE": "Turkish News Classification",
+        "PAGE_OPTIONS_HOME_PARAGRAPH": "TNC is a Turkish news classification tool. A data set was created by extracting data from various news websites. Study steps;",
+        "PAGE_OPTIONS_HOME_STEPS_1": "1. **Import Required Libraries:** The models were trained on the computer. Necessary libraries are loaded. Auxiliary functions are defined. Library configurations were made.",
+        "PAGE_OPTIONS_HOME_STEPS_2": "2. **Analysis:** Empty values and repeated values were checked in the data set. The most frequent words and n-grams were analysed.",
+        "PAGE_OPTIONS_HOME_STEPS_3": "3. **EDA**: Exploratory data analysis was performed.",
+        "PAGE_OPTIONS_HOME_STEPS_4": "6. **Preprocessing:** The text data were subjected to various pre-processing operations.",
+        "PAGE_OPTIONS_HOME_STEPS_5": "7. **Mode Training:** The models were trained with the data converted into word vectors.",
+
+        "PAGE_OPTIONS_HOME_OBJECTIVE_TITLE": "## Purpose",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_PARAGRAPH": "The aim of this project is to develop a natural language processing solution to classify news in different categories on websites and to evaluate the performance of the models. In the project, a dataset created with news collected from websites for 9 different categories is used.  There are 2 columns in the data set:",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_COL1": "1. **Haber Gövdesi**: The content of the news item is in this column.",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_COL2": "2. **Sınıf**: The category to which the news belongs is in this column.",
+
+
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_PARAGRAPH": "The number of data belonging to each category is given below.",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1": "Category",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_1": "Magazine",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_2": "Politics",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_3": "Sport",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_4": "Health",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_5": "Culture and Arts",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_6": "Tourism",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_7": "Science-Technology",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_8": "Finance-Economics",
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL1_9": "Environment",
+        
+        "PAGE_OPTIONS_HOME_OBJECTIVE_DF_COL2": "News Count",
+
+
+        "PAGE_OPTIONS_HOME_INSTALLATION_TITLE": "## Installation",
+        "PAGE_OPTIONS_HOME_INSTALLATION_PARAGRAPH": "Run the following command to install the necessary libraries.",
+
+        "PAGE_OPTIONS_UPLOAD": "Upload",
+        "PAGE_OPTIONS_UPLOAD_TITLE": "Result",
+        "PAGE_OPTIONS_UPLOAD_HEADER": "Enter a news item to classify.",
+        "PAGE_OPTIONS_UPLOAD_BUTTON": "Classify",
+
+        "PAGE_OPTIONS_MODELS": "Models",
+        "PAGE_OPTIONS_MODELS_TITLE": "Models",
+        "PAGE_OPTIONS_MODELS_HEADER": "Trained Models",
+        "PAGE_OPTIONS_MODELS_LEGEND_1": "Train Accuracy",
+        "PAGE_OPTIONS_MODELS_LEGEND_2": "Test Accuracy",
+        "PAGE_OPTIONS_MODELS_LEGEND_3": "F1 Score",
+        "PAGE_OPTIONS_MODELS_LEGEND_4": "Precision Score",
+        "PAGE_OPTIONS_MODELS_LEGEND_5": "Recall Score",
+        "PAGE_OPTIONS_MODELS_GRAPH_TITLE": "Best Models",
+
+        "PAGE_OPTIONS_FEATURES": "Preprocess",
+        "PAGE_OPTIONS_FEATURES_TITLE": "Preprocess Steps",
+        "PAGE_OPTIONS_FEATURES_1": "Turkish abbreviations have been replaced with their definitions.",
+        "PAGE_OPTIONS_FEATURES_2": "All words are transliterated into lower case.",
+        "PAGE_OPTIONS_FEATURES_3": "Links in the text have been removed.",
+        "PAGE_OPTIONS_FEATURES_4": "Figures in the text have been removed.",
+        "PAGE_OPTIONS_FEATURES_5": "Punctuation marks in the text have been cleaned.",
+        "PAGE_OPTIONS_FEATURES_6": "The e-mail addresses in the text have been cleaned.",
+        "PAGE_OPTIONS_FEATURES_7": "Emojis in the text have been removed.",
+        "PAGE_OPTIONS_FEATURES_8": "HTML tags in the text have been cleaned.",
+        "PAGE_OPTIONS_FEATURES_9": "Ineffective words in the text have been removed.",
+        "PAGE_OPTIONS_FEATURES_10": "Words with a frequency of less than 10 were removed.",
+        "PAGE_OPTIONS_FEATURES_11": "Sentence normalisation has been performed.",
+        "PAGE_OPTIONS_FEATURES_12": "Lemmatisation has been done.",
+
+        "PAGE_OPTIONS_ABOUT": "About",
+        "PAGE_OPTIONS_ABOUT_TITLE": "About",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_TITLE": "References and Links",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_R1": "- Dataset: Redacted, [Redacted]()",
+        "PAGE_OPTIONS_ABOUT_EXPANDER_R2": "- Source codes: [Github](https://github.com/thealper2/turkish-news-classification)"
+    }
+}
