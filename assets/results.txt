@@ -1,0 +1,423 @@
+TFIDF - Multinomial NB
+
+TFIDF + MultnomialNB Train Time = 0.3033
+TFIDF + MultinomialNB Train Score = 88.0316%
+TFIDF + MultinomialNB Test Score = 84.2929%
+TFIDF + MultinomialNB Test Time = 0.0377
+TFIDF + MultinomialNB Precision Score = 84.9821%
+TFIDF + MultinomialNB F1 Score = 84.2082%
+TFIDF + MultinomialNB Recall Score = 84.2929%
+TFIDF + MultinomialNB Accuracy Score = 84.2929%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.75      0.83      0.79      2200
+ Finans-Ekonomi       0.75      0.90      0.82      2200
+   Kültür-Sanat       0.80      0.87      0.83      2200
+        Magazin       0.95      0.84      0.89      2200
+         Sağlık       0.87      0.96      0.91      2200
+        Siyaset       0.82      0.84      0.83      2200
+           Spor       0.96      0.96      0.96      2200
+         Turizm       0.92      0.70      0.80      2200
+          Çevre       0.83      0.69      0.75      2200
+
+       accuracy                           0.84     19800
+      macro avg       0.85      0.84      0.84     19800
+   weighted avg       0.85      0.84      0.84     19800
+
+
+---------------------------------------------------------------------------
+
+CV + MultinomialNB Train Time = 0.2527
+CV + MultinomialNB Train Score = 90.0606%
+CV + MultinomialNB Test Score = 85.5556%
+CV + MultinomialNB Test Time = 0.0462
+CV + MultinomialNB Precision Score = 85.9225%
+CV + MultinomialNB F1 Score = 85.5559%
+CV + MultinomialNB Recall Score = 85.5556%
+CV + MultinomialNB Accuracy Score = 85.5556%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.73      0.86      0.79      2200
+ Finans-Ekonomi       0.86      0.80      0.83      2200
+   Kültür-Sanat       0.82      0.87      0.84      2200
+        Magazin       0.93      0.88      0.91      2200
+         Sağlık       0.91      0.95      0.93      2200
+        Siyaset       0.83      0.86      0.84      2200
+           Spor       0.96      0.96      0.96      2200
+         Turizm       0.90      0.75      0.82      2200
+          Çevre       0.80      0.76      0.78      2200
+
+       accuracy                           0.86     19800
+      macro avg       0.86      0.86      0.86     19800
+   weighted avg       0.86      0.86      0.86     19800
+
+---------------------------------------------------------------------------
+TFIDF + Logistic Regression Train Time = 85.3729
+TFIDF + Logistic Regression Train Score = 94.5606%
+TFIDF + Logistic Regression Test Score = 89.4394%
+TFIDF + Logistic Regression Test Time = 0.0427
+TFIDF + Logistic Regression Precision Score = 89.4897%
+TFIDF + Logistic Regression F1 Score = 89.4405%
+TFIDF + Logistic Regression Recall Score = 89.4394%
+TFIDF + Logistic Regression Accuracy Score = 89.4394%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.90      0.86      0.88      2200
+ Finans-Ekonomi       0.91      0.87      0.89      2200
+   Kültür-Sanat       0.85      0.88      0.86      2200
+        Magazin       0.90      0.91      0.91      2200
+         Sağlık       0.94      0.96      0.95      2200
+        Siyaset       0.85      0.89      0.87      2200
+           Spor       0.97      0.97      0.97      2200
+         Turizm       0.89      0.85      0.87      2200
+          Çevre       0.84      0.86      0.85      2200
+
+       accuracy                           0.89     19800
+      macro avg       0.89      0.89      0.89     19800
+   weighted avg       0.89      0.89      0.89     19800
+
+---------------------------------------------------------------------------
+CV + Logistic Regression Train Time = 80.0296
+CV + Logistic Regression Train Score = 99.9533%
+CV + Logistic Regression Test Score = 90.5000%
+CV + Logistic Regression Test Time = 0.0461
+CV + Logistic Regression Precision Score = 90.5469%
+CV + Logistic Regression F1 Score = 90.5157%
+CV + Logistic Regression Recall Score = 90.5000%
+CV + Logistic Regression Accuracy Score = 90.5000%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.93      0.89      0.91      2200
+ Finans-Ekonomi       0.90      0.90      0.90      2200
+   Kültür-Sanat       0.87      0.88      0.88      2200
+        Magazin       0.91      0.91      0.91      2200
+         Sağlık       0.96      0.95      0.95      2200
+        Siyaset       0.87      0.88      0.88      2200
+           Spor       0.98      0.97      0.97      2200
+         Turizm       0.87      0.89      0.88      2200
+          Çevre       0.86      0.88      0.87      2200
+
+       accuracy                           0.91     19800
+      macro avg       0.91      0.90      0.91     19800
+   weighted avg       0.91      0.91      0.91     19800
+
+---------------------------------------------------------------------------
+TFIDF + XGB Train Time = 59.3288
+TFIDF + XGB Train Score = 15.5429%
+TFIDF + XGB Test Score = 15.1414%
+TFIDF + XGB Test Time = 0.0465
+TFIDF + XGB Precision Score = 21.1958%
+TFIDF + XGB F1 Score = 12.0392%
+TFIDF + XGB Recall Score = 15.1414%
+TFIDF + XGB Accuracy Score = 15.1414%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.27      0.02      0.04      2200
+ Finans-Ekonomi       0.42      0.12      0.18      2200
+   Kültür-Sanat       0.14      0.26      0.18      2200
+        Magazin       0.09      0.05      0.07      2200
+         Sağlık       0.54      0.15      0.23      2200
+        Siyaset       0.14      0.14      0.14      2200
+           Spor       0.12      0.00      0.01      2200
+         Turizm       0.13      0.61      0.22      2200
+          Çevre       0.05      0.01      0.02      2200
+
+       accuracy                           0.15     19800
+      macro avg       0.21      0.15      0.12     19800
+   weighted avg       0.21      0.15      0.12     19800
+
+
+---------------------------------------------------------------------------
+CV + XGB Train Time = 33.5803
+CV + XGB Train Score = 14.7702%
+CV + XGB Test Score = 14.4495%
+CV + XGB Test Time = 0.0327
+CV + XGB Precision Score = 30.5511%
+CV + XGB F1 Score = 11.5658%
+CV + XGB Recall Score = 14.4495%
+CV + XGB Accuracy Score = 14.4495%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.59      0.17      0.26      2200
+ Finans-Ekonomi       0.08      0.27      0.12      2200
+   Kültür-Sanat       0.50      0.00      0.00      2200
+        Magazin       0.07      0.00      0.00      2200
+         Sağlık       0.27      0.40      0.33      2200
+        Siyaset       0.16      0.00      0.00      2200
+           Spor       0.83      0.00      0.00      2200
+         Turizm       0.15      0.24      0.18      2200
+          Çevre       0.10      0.21      0.14      2200
+
+       accuracy                           0.14     19800
+      macro avg       0.31      0.14      0.12     19800
+   weighted avg       0.31      0.14      0.12     19800
+
+
+---------------------------------------------------------------------------
+
+SimpleRNN + GloVe Train Time = 739.0942
+SimpleRNN + GloVe Test Time = 24.1930
+SimpleRNN + GloVe Train Score = 24.9318%
+SimpleRNN + GloVe Test Score = 24.1212%
+SimpleRNN + GloVe Precision Score = 24.5166%
+SimpleRNN + GloVe F1 Score = 22.4495%
+SimpleRNN + GloVe Recall Score = 24.1212%
+SimpleRNN + GloVe Accuracy Score = 24.1212%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.27      0.28      0.28      2200
+ Finans-Ekonomi       0.59      0.52      0.55      2200
+   Kültür-Sanat       0.18      0.04      0.07      2200
+        Magazin       0.11      0.10      0.10      2200
+         Sağlık       0.15      0.43      0.22      2200
+        Siyaset       0.11      0.02      0.04      2200
+           Spor       0.33      0.33      0.33      2200
+         Turizm       0.21      0.10      0.13      2200
+          Çevre       0.26      0.34      0.29      2200
+
+       accuracy                           0.24     19800
+      macro avg       0.25      0.24      0.22     19800
+   weighted avg       0.25      0.24      0.22     19800
+
+---------------------------------------------------------------------------
+LSTM + GloVe Train Time = 161.0099
+LSTM + GloVe Test Time = 5.5746
+LSTM + GloVe Train Score = 90.6136%
+LSTM + GloVe Test Score = 86.5707%
+LSTM + GloVe Precision Score = 86.5563%
+LSTM + GloVe F1 Score = 86.5548%
+LSTM + GloVe Recall Score = 86.5707%
+LSTM + GloVe Accuracy Score = 86.5707%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.89      0.89      0.89      2200
+ Finans-Ekonomi       0.86      0.87      0.86      2200
+   Kültür-Sanat       0.84      0.80      0.82      2200
+        Magazin       0.88      0.88      0.88      2200
+         Sağlık       0.92      0.94      0.93      2200
+        Siyaset       0.82      0.84      0.83      2200
+           Spor       0.96      0.96      0.96      2200
+         Turizm       0.81      0.81      0.81      2200
+          Çevre       0.81      0.80      0.80      2200
+
+       accuracy                           0.87     19800
+      macro avg       0.87      0.87      0.87     19800
+   weighted avg       0.87      0.87      0.87     19800
+
+
+---------------------------------------------------------------------------
+
+GRU + GloVe Train Time = 156.4464
+GRU + GloVe Test Time = 7.0386
+GRU + GloVe Train Score = 91.7715%
+GRU + GloVe Test Score = 86.9646%
+GRU + GloVe Precision Score = 87.1463%
+GRU + GloVe F1 Score = 86.9838%
+GRU + GloVe Recall Score = 86.9646%
+GRU + GloVe Accuracy Score = 86.9646%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.91      0.89      0.90      2200
+ Finans-Ekonomi       0.88      0.87      0.87      2200
+   Kültür-Sanat       0.81      0.81      0.81      2200
+        Magazin       0.83      0.91      0.87      2200
+         Sağlık       0.95      0.93      0.94      2200
+        Siyaset       0.87      0.80      0.83      2200
+           Spor       0.97      0.96      0.97      2200
+         Turizm       0.85      0.81      0.83      2200
+          Çevre       0.77      0.85      0.81      2200
+
+       accuracy                           0.87     19800
+      macro avg       0.87      0.87      0.87     19800
+   weighted avg       0.87      0.87      0.87     19800
+
+---------------------------------------------------------------------------
+
+Bi-LSTM + GloVe Train Time = 290.6565
+Bi-LSTM + GloVe Test Time = 13.3646
+Bi-LSTM + GloVe Train Score = 93.4747%
+Bi-LSTM + GloVe Test Score = 87.7323%
+Bi-LSTM + GloVe Precision Score = 87.7537%
+Bi-LSTM + GloVe F1 Score = 87.6739%
+Bi-LSTM + GloVe Recall Score = 87.7323%
+Bi-LSTM + GloVe Accuracy Score = 87.7323%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.88      0.92      0.90      2200
+ Finans-Ekonomi       0.82      0.91      0.86      2200
+   Kültür-Sanat       0.84      0.85      0.84      2200
+        Magazin       0.90      0.89      0.89      2200
+         Sağlık       0.93      0.94      0.93      2200
+        Siyaset       0.88      0.83      0.85      2200
+           Spor       0.96      0.97      0.97      2200
+         Turizm       0.84      0.80      0.82      2200
+          Çevre       0.85      0.78      0.81      2200
+
+       accuracy                           0.88     19800
+      macro avg       0.88      0.88      0.88     19800
+   weighted avg       0.88      0.88      0.88     19800
+
+
+---------------------------------------------------------------------------
+FastText Train Time = 69.0080
+FastText Test Time = 2.1194
+FastText Train Score = 99.9747%
+FastText Test Score = 90.7929%
+FastText Precision Score = 90.8286%
+FastText F1 Score = 90.7950%
+FastText Recall Score = 90.7929%
+FastText Accuracy Score = 90.7929%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.92      0.90      0.91      2200
+ Finans-Ekonomi       0.91      0.90      0.90      2200
+   Kültür-Sanat       0.86      0.91      0.88      2200
+        Magazin       0.93      0.90      0.91      2200
+         Sağlık       0.94      0.96      0.95      2200
+        Siyaset       0.87      0.88      0.88      2200
+           Spor       0.97      0.98      0.97      2200
+         Turizm       0.90      0.87      0.88      2200
+          Çevre       0.87      0.87      0.87      2200
+
+       accuracy                           0.91     19800
+      macro avg       0.91      0.91      0.91     19800
+   weighted avg       0.91      0.91      0.91     19800
+
+
+---------------------------------------------------------------------------
+
+BERT
+
+---
+
+Attention Train Time = 346.8342
+Attention Test Time = 5.2295
+Attention Train Score = 97.6515%
+Attention Test Score = 87.9293%
+Attention Precision Score = 88.0330%
+Attention F1 Score = 87.9470%
+Attention Recall Score = 87.9293%
+Attention Accuracy Score = 87.9293%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.94      0.86      0.90      2200
+ Finans-Ekonomi       0.86      0.88      0.87      2200
+   Kültür-Sanat       0.82      0.87      0.84      2200
+        Magazin       0.87      0.87      0.87      2200
+         Sağlık       0.94      0.93      0.94      2200
+        Siyaset       0.83      0.85      0.84      2200
+           Spor       0.96      0.97      0.96      2200
+         Turizm       0.85      0.85      0.85      2200
+          Çevre       0.85      0.82      0.83      2200
+
+       accuracy                           0.88     19800
+      macro avg       0.88      0.88      0.88     19800
+   weighted avg       0.88      0.88      0.88     19800
+
+---------------------------------------------------------------------------
+
+SimpleRNN + Word2Vec Train Time = 716.3289
+SimpleRNN + Word2Vec Test Time = 22.6282
+SimpleRNN + Word2Vec Train Score = 56.0164%
+SimpleRNN + Word2Vec Test Score = 55.2879%
+SimpleRNN + Word2Vec Precision Score = 61.6987%
+SimpleRNN + Word2Vec F1 Score = 54.9233%
+SimpleRNN + Word2Vec Recall Score = 55.2879%
+SimpleRNN + Word2Vec Accuracy Score = 55.2879%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.53      0.50      0.51      2200
+ Finans-Ekonomi       0.89      0.55      0.68      2200
+   Kültür-Sanat       0.31      0.65      0.42      2200
+        Magazin       0.39      0.69      0.50      2200
+         Sağlık       0.74      0.83      0.78      2200
+        Siyaset       0.63      0.44      0.52      2200
+           Spor       0.86      0.82      0.84      2200
+         Turizm       0.55      0.15      0.24      2200
+          Çevre       0.65      0.35      0.45      2200
+
+       accuracy                           0.55     19800
+      macro avg       0.62      0.55      0.55     19800
+   weighted avg       0.62      0.55      0.55     19800
+
+---------------------------------------------------------------------------
+
+LSTM + Word2Vec Train Time = 161.5417
+LSTM + Word2Vec Test Time = 7.0084
+LSTM + Word2Vec Train Score = 95.1730%
+LSTM + Word2Vec Test Score = 89.5808%
+LSTM + Word2Vec Precision Score = 89.5960%
+LSTM + Word2Vec F1 Score = 89.5676%
+LSTM + Word2Vec Recall Score = 89.5808%
+LSTM + Word2Vec Accuracy Score = 89.5808%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.90      0.93      0.91      2200
+ Finans-Ekonomi       0.88      0.89      0.89      2200
+   Kültür-Sanat       0.88      0.86      0.87      2200
+        Magazin       0.90      0.91      0.90      2200
+         Sağlık       0.94      0.95      0.95      2200
+        Siyaset       0.84      0.88      0.86      2200
+           Spor       0.97      0.97      0.97      2200
+         Turizm       0.89      0.84      0.86      2200
+          Çevre       0.86      0.84      0.85      2200
+
+       accuracy                           0.90     19800
+      macro avg       0.90      0.90      0.90     19800
+   weighted avg       0.90      0.90      0.90     19800
+
+---------------------------------------------------------------------------
+
+GRU + Word2Vec Train Time = 156.3637
+GRU + Word2Vec Test Time = 7.4192
+GRU + Word2Vec Train Score = 96.3952%
+GRU + Word2Vec Test Score = 89.3030%
+GRU + Word2Vec Precision Score = 89.3357%
+GRU + Word2Vec F1 Score = 89.2817%
+GRU + Word2Vec Recall Score = 89.3030%
+GRU + Word2Vec Accuracy Score = 89.3030%
+
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.93      0.91      0.92      2200
+ Finans-Ekonomi       0.85      0.91      0.88      2200
+   Kültür-Sanat       0.87      0.85      0.86      2200
+        Magazin       0.90      0.90      0.90      2200
+         Sağlık       0.94      0.96      0.95      2200
+        Siyaset       0.88      0.84      0.86      2200
+           Spor       0.96      0.98      0.97      2200
+         Turizm       0.82      0.87      0.85      2200
+          Çevre       0.88      0.83      0.85      2200
+
+       accuracy                           0.89     19800
+      macro avg       0.89      0.89      0.89     19800
+   weighted avg       0.89      0.89      0.89     19800
+
+
+---------------------------------------------------------------------------
+
+Bi-LSTM + Word2Vec Train Time = 284.9522
+Bi-LSTM + Word2Vec Test Time = 13.5460
+Bi-LSTM + Word2Vec Train Score = 97.2172%
+Bi-LSTM + Word2Vec Test Score = 89.9848%
+Bi-LSTM + Word2Vec Precision Score = 90.1264%
+Bi-LSTM + Word2Vec F1 Score = 90.0053%
+Bi-LSTM + Word2Vec Recall Score = 89.9848%
+Bi-LSTM + Word2Vec Accuracy Score = 89.9848%
+                 precision    recall  f1-score   support
+
+Bilim-Teknoloji       0.93      0.91      0.92      2200
+ Finans-Ekonomi       0.94      0.84      0.89      2200
+   Kültür-Sanat       0.85      0.89      0.87      2200
+        Magazin       0.92      0.89      0.90      2200
+         Sağlık       0.95      0.96      0.95      2200
+        Siyaset       0.85      0.89      0.87      2200
+           Spor       0.97      0.97      0.97      2200
+         Turizm       0.85      0.87      0.86      2200
+          Çevre       0.86      0.87      0.87      2200
+
+       accuracy                           0.90     19800
+      macro avg       0.90      0.90      0.90     19800
+   weighted avg       0.90      0.90      0.90     19800
+
+---------------------------------------------------------------------------
