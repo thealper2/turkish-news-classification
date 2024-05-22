@@ -10,7 +10,10 @@ import numpy as np
 from streamlit_option_menu import option_menu
 import plotly.graph_objects as go
 from kisaltmalar import kisaltmalar
+import nltk
+nltk.download('punkt')
 from nltk import word_tokenize
+
 
 fi = open('./assets/languages.json')
 config = json.load(fi)
